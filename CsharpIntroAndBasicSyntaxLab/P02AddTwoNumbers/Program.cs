@@ -6,7 +6,13 @@ namespace P02AddTwoNumbers
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            int number1 = int.Parse(Console.ReadLine());
+            int number2 = int.Parse(Console.ReadLine());
+            int result = number1 + number2;
+
+            Console.WriteLine("{0} + {1} = {2}", number1, number2, result);
+
+            //main ends here
         }
     }
 }
