@@ -1,0 +1,11 @@
+E:\ProgrammingFundamentals\CsharpBasicSyntaxExercises\P02RectangleArea\bin\Debug\netcoreapp2.0\P02RectangleArea.deps.json
+E:\ProgrammingFundamentals\CsharpBasicSyntaxExercises\P02RectangleArea\bin\Debug\netcoreapp2.0\P02RectangleArea.runtimeconfig.json
+E:\ProgrammingFundamentals\CsharpBasicSyntaxExercises\P02RectangleArea\bin\Debug\netcoreapp2.0\P02RectangleArea.runtimeconfig.dev.json
+E:\ProgrammingFundamentals\CsharpBasicSyntaxExercises\P02RectangleArea\bin\Debug\netcoreapp2.0\P02RectangleArea.dll
+E:\ProgrammingFundamentals\CsharpBasicSyntaxExercises\P02RectangleArea\bin\Debug\netcoreapp2.0\P02RectangleArea.pdb
+E:\ProgrammingFundamentals\CsharpBasicSyntaxExercises\P02RectangleArea\obj\Debug\netcoreapp2.0\P02RectangleArea.csprojResolveAssemblyReference.cache
+E:\ProgrammingFundamentals\CsharpBasicSyntaxExercises\P02RectangleArea\obj\Debug\netcoreapp2.0\P02RectangleArea.csproj.CoreCompileInputs.cache
+E:\ProgrammingFundamentals\CsharpBasicSyntaxExercises\P02RectangleArea\obj\Debug\netcoreapp2.0\P02RectangleArea.AssemblyInfoInputs.cache
+E:\ProgrammingFundamentals\CsharpBasicSyntaxExercises\P02RectangleArea\obj\Debug\netcoreapp2.0\P02RectangleArea.AssemblyInfo.cs
+E:\ProgrammingFundamentals\CsharpBasicSyntaxExercises\P02RectangleArea\obj\Debug\netcoreapp2.0\P02RectangleArea.dll
+E:\ProgrammingFundamentals\CsharpBasicSyntaxExercises\P02RectangleArea\obj\Debug\netcoreapp2.0\P02RectangleArea.pdb

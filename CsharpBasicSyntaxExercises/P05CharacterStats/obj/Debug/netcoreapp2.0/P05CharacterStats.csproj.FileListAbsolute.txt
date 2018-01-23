@@ -1,0 +1,11 @@
+E:\ProgrammingFundamentals\CsharpBasicSyntaxExercises\P05CharacterStats\bin\Debug\netcoreapp2.0\P05CharacterStats.deps.json
+E:\ProgrammingFundamentals\CsharpBasicSyntaxExercises\P05CharacterStats\bin\Debug\netcoreapp2.0\P05CharacterStats.runtimeconfig.json
+E:\ProgrammingFundamentals\CsharpBasicSyntaxExercises\P05CharacterStats\bin\Debug\netcoreapp2.0\P05CharacterStats.runtimeconfig.dev.json
+E:\ProgrammingFundamentals\CsharpBasicSyntaxExercises\P05CharacterStats\bin\Debug\netcoreapp2.0\P05CharacterStats.dll
+E:\ProgrammingFundamentals\CsharpBasicSyntaxExercises\P05CharacterStats\bin\Debug\netcoreapp2.0\P05CharacterStats.pdb
+E:\ProgrammingFundamentals\CsharpBasicSyntaxExercises\P05CharacterStats\obj\Debug\netcoreapp2.0\P05CharacterStats.csprojResolveAssemblyReference.cache
+E:\ProgrammingFundamentals\CsharpBasicSyntaxExercises\P05CharacterStats\obj\Debug\netcoreapp2.0\P05CharacterStats.csproj.CoreCompileInputs.cache
+E:\ProgrammingFundamentals\CsharpBasicSyntaxExercises\P05CharacterStats\obj\Debug\netcoreapp2.0\P05CharacterStats.AssemblyInfoInputs.cache
+E:\ProgrammingFundamentals\CsharpBasicSyntaxExercises\P05CharacterStats\obj\Debug\netcoreapp2.0\P05CharacterStats.AssemblyInfo.cs
+E:\ProgrammingFundamentals\CsharpBasicSyntaxExercises\P05CharacterStats\obj\Debug\netcoreapp2.0\P05CharacterStats.dll
+E:\ProgrammingFundamentals\CsharpBasicSyntaxExercises\P05CharacterStats\obj\Debug\netcoreapp2.0\P05CharacterStats.pdb
