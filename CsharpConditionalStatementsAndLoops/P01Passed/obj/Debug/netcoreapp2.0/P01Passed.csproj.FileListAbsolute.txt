@@ -1,0 +1,11 @@
+E:\GitHubRepositories\Software-University-Technology-Fundamentals\CsharpConditionalStatementsAndLoops\P01Passed\bin\Debug\netcoreapp2.0\P01Passed.deps.json
+E:\GitHubRepositories\Software-University-Technology-Fundamentals\CsharpConditionalStatementsAndLoops\P01Passed\bin\Debug\netcoreapp2.0\P01Passed.runtimeconfig.json
+E:\GitHubRepositories\Software-University-Technology-Fundamentals\CsharpConditionalStatementsAndLoops\P01Passed\bin\Debug\netcoreapp2.0\P01Passed.runtimeconfig.dev.json
+E:\GitHubRepositories\Software-University-Technology-Fundamentals\CsharpConditionalStatementsAndLoops\P01Passed\bin\Debug\netcoreapp2.0\P01Passed.dll
+E:\GitHubRepositories\Software-University-Technology-Fundamentals\CsharpConditionalStatementsAndLoops\P01Passed\bin\Debug\netcoreapp2.0\P01Passed.pdb
+E:\GitHubRepositories\Software-University-Technology-Fundamentals\CsharpConditionalStatementsAndLoops\P01Passed\obj\Debug\netcoreapp2.0\P01Passed.csprojResolveAssemblyReference.cache
+E:\GitHubRepositories\Software-University-Technology-Fundamentals\CsharpConditionalStatementsAndLoops\P01Passed\obj\Debug\netcoreapp2.0\P01Passed.csproj.CoreCompileInputs.cache
+E:\GitHubRepositories\Software-University-Technology-Fundamentals\CsharpConditionalStatementsAndLoops\P01Passed\obj\Debug\netcoreapp2.0\P01Passed.AssemblyInfoInputs.cache
+E:\GitHubRepositories\Software-University-Technology-Fundamentals\CsharpConditionalStatementsAndLoops\P01Passed\obj\Debug\netcoreapp2.0\P01Passed.AssemblyInfo.cs
+E:\GitHubRepositories\Software-University-Technology-Fundamentals\CsharpConditionalStatementsAndLoops\P01Passed\obj\Debug\netcoreapp2.0\P01Passed.dll
+E:\GitHubRepositories\Software-University-Technology-Fundamentals\CsharpConditionalStatementsAndLoops\P01Passed\obj\Debug\netcoreapp2.0\P01Passed.pdb

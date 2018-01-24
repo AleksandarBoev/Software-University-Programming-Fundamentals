@@ -1,0 +1,11 @@
+E:\GitHubRepositories\Software-University-Technology-Fundamentals\CsharpConditionalStatementsAndLoops\P12NumberChecker\bin\Debug\netcoreapp2.0\P12NumberChecker.deps.json
+E:\GitHubRepositories\Software-University-Technology-Fundamentals\CsharpConditionalStatementsAndLoops\P12NumberChecker\bin\Debug\netcoreapp2.0\P12NumberChecker.runtimeconfig.json
+E:\GitHubRepositories\Software-University-Technology-Fundamentals\CsharpConditionalStatementsAndLoops\P12NumberChecker\bin\Debug\netcoreapp2.0\P12NumberChecker.runtimeconfig.dev.json
+E:\GitHubRepositories\Software-University-Technology-Fundamentals\CsharpConditionalStatementsAndLoops\P12NumberChecker\bin\Debug\netcoreapp2.0\P12NumberChecker.dll
+E:\GitHubRepositories\Software-University-Technology-Fundamentals\CsharpConditionalStatementsAndLoops\P12NumberChecker\bin\Debug\netcoreapp2.0\P12NumberChecker.pdb
+E:\GitHubRepositories\Software-University-Technology-Fundamentals\CsharpConditionalStatementsAndLoops\P12NumberChecker\obj\Debug\netcoreapp2.0\P12NumberChecker.csprojResolveAssemblyReference.cache
+E:\GitHubRepositories\Software-University-Technology-Fundamentals\CsharpConditionalStatementsAndLoops\P12NumberChecker\obj\Debug\netcoreapp2.0\P12NumberChecker.csproj.CoreCompileInputs.cache
+E:\GitHubRepositories\Software-University-Technology-Fundamentals\CsharpConditionalStatementsAndLoops\P12NumberChecker\obj\Debug\netcoreapp2.0\P12NumberChecker.AssemblyInfoInputs.cache
+E:\GitHubRepositories\Software-University-Technology-Fundamentals\CsharpConditionalStatementsAndLoops\P12NumberChecker\obj\Debug\netcoreapp2.0\P12NumberChecker.AssemblyInfo.cs
+E:\GitHubRepositories\Software-University-Technology-Fundamentals\CsharpConditionalStatementsAndLoops\P12NumberChecker\obj\Debug\netcoreapp2.0\P12NumberChecker.dll
+E:\GitHubRepositories\Software-University-Technology-Fundamentals\CsharpConditionalStatementsAndLoops\P12NumberChecker\obj\Debug\netcoreapp2.0\P12NumberChecker.pdb
