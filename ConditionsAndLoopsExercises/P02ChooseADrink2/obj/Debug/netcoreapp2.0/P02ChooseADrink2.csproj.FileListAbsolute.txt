@@ -1,0 +1,10 @@
+D:\aSa6o\Programming\GitHubRepositories\Software-University-Technology-Fundamentals\ConditionsAndLoopsExercises\P02ChooseADrink2\bin\Debug\netcoreapp2.0\P02ChooseADrink2.deps.json
+D:\aSa6o\Programming\GitHubRepositories\Software-University-Technology-Fundamentals\ConditionsAndLoopsExercises\P02ChooseADrink2\bin\Debug\netcoreapp2.0\P02ChooseADrink2.runtimeconfig.json
+D:\aSa6o\Programming\GitHubRepositories\Software-University-Technology-Fundamentals\ConditionsAndLoopsExercises\P02ChooseADrink2\bin\Debug\netcoreapp2.0\P02ChooseADrink2.runtimeconfig.dev.json
+D:\aSa6o\Programming\GitHubRepositories\Software-University-Technology-Fundamentals\ConditionsAndLoopsExercises\P02ChooseADrink2\bin\Debug\netcoreapp2.0\P02ChooseADrink2.dll
+D:\aSa6o\Programming\GitHubRepositories\Software-University-Technology-Fundamentals\ConditionsAndLoopsExercises\P02ChooseADrink2\bin\Debug\netcoreapp2.0\P02ChooseADrink2.pdb
+D:\aSa6o\Programming\GitHubRepositories\Software-University-Technology-Fundamentals\ConditionsAndLoopsExercises\P02ChooseADrink2\obj\Debug\netcoreapp2.0\P02ChooseADrink2.csproj.CoreCompileInputs.cache
+D:\aSa6o\Programming\GitHubRepositories\Software-University-Technology-Fundamentals\ConditionsAndLoopsExercises\P02ChooseADrink2\obj\Debug\netcoreapp2.0\P02ChooseADrink2.AssemblyInfoInputs.cache
+D:\aSa6o\Programming\GitHubRepositories\Software-University-Technology-Fundamentals\ConditionsAndLoopsExercises\P02ChooseADrink2\obj\Debug\netcoreapp2.0\P02ChooseADrink2.AssemblyInfo.cs
+D:\aSa6o\Programming\GitHubRepositories\Software-University-Technology-Fundamentals\ConditionsAndLoopsExercises\P02ChooseADrink2\obj\Debug\netcoreapp2.0\P02ChooseADrink2.dll
+D:\aSa6o\Programming\GitHubRepositories\Software-University-Technology-Fundamentals\ConditionsAndLoopsExercises\P02ChooseADrink2\obj\Debug\netcoreapp2.0\P02ChooseADrink2.pdb

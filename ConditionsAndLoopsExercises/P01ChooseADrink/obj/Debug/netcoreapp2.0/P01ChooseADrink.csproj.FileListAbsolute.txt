@@ -1,0 +1,11 @@
+D:\aSa6o\Programming\GitHubRepositories\Software-University-Technology-Fundamentals\ConditionsAndLoopsExercises\P01ChooseADrink\bin\Debug\netcoreapp2.0\P01ChooseADrink.deps.json
+D:\aSa6o\Programming\GitHubRepositories\Software-University-Technology-Fundamentals\ConditionsAndLoopsExercises\P01ChooseADrink\bin\Debug\netcoreapp2.0\P01ChooseADrink.runtimeconfig.json
+D:\aSa6o\Programming\GitHubRepositories\Software-University-Technology-Fundamentals\ConditionsAndLoopsExercises\P01ChooseADrink\bin\Debug\netcoreapp2.0\P01ChooseADrink.runtimeconfig.dev.json
+D:\aSa6o\Programming\GitHubRepositories\Software-University-Technology-Fundamentals\ConditionsAndLoopsExercises\P01ChooseADrink\bin\Debug\netcoreapp2.0\P01ChooseADrink.dll
+D:\aSa6o\Programming\GitHubRepositories\Software-University-Technology-Fundamentals\ConditionsAndLoopsExercises\P01ChooseADrink\bin\Debug\netcoreapp2.0\P01ChooseADrink.pdb
+D:\aSa6o\Programming\GitHubRepositories\Software-University-Technology-Fundamentals\ConditionsAndLoopsExercises\P01ChooseADrink\obj\Debug\netcoreapp2.0\P01ChooseADrink.csprojResolveAssemblyReference.cache
+D:\aSa6o\Programming\GitHubRepositories\Software-University-Technology-Fundamentals\ConditionsAndLoopsExercises\P01ChooseADrink\obj\Debug\netcoreapp2.0\P01ChooseADrink.csproj.CoreCompileInputs.cache
+D:\aSa6o\Programming\GitHubRepositories\Software-University-Technology-Fundamentals\ConditionsAndLoopsExercises\P01ChooseADrink\obj\Debug\netcoreapp2.0\P01ChooseADrink.AssemblyInfoInputs.cache
+D:\aSa6o\Programming\GitHubRepositories\Software-University-Technology-Fundamentals\ConditionsAndLoopsExercises\P01ChooseADrink\obj\Debug\netcoreapp2.0\P01ChooseADrink.AssemblyInfo.cs
+D:\aSa6o\Programming\GitHubRepositories\Software-University-Technology-Fundamentals\ConditionsAndLoopsExercises\P01ChooseADrink\obj\Debug\netcoreapp2.0\P01ChooseADrink.dll
+D:\aSa6o\Programming\GitHubRepositories\Software-University-Technology-Fundamentals\ConditionsAndLoopsExercises\P01ChooseADrink\obj\Debug\netcoreapp2.0\P01ChooseADrink.pdb

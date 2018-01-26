@@ -1,0 +1,11 @@
+D:\aSa6o\Programming\GitHubRepositories\Software-University-Technology-Fundamentals\ConditionsAndLoopsExercises\P04Hotel\bin\Debug\netcoreapp2.0\P04Hotel.deps.json
+D:\aSa6o\Programming\GitHubRepositories\Software-University-Technology-Fundamentals\ConditionsAndLoopsExercises\P04Hotel\bin\Debug\netcoreapp2.0\P04Hotel.runtimeconfig.json
+D:\aSa6o\Programming\GitHubRepositories\Software-University-Technology-Fundamentals\ConditionsAndLoopsExercises\P04Hotel\bin\Debug\netcoreapp2.0\P04Hotel.runtimeconfig.dev.json
+D:\aSa6o\Programming\GitHubRepositories\Software-University-Technology-Fundamentals\ConditionsAndLoopsExercises\P04Hotel\bin\Debug\netcoreapp2.0\P04Hotel.dll
+D:\aSa6o\Programming\GitHubRepositories\Software-University-Technology-Fundamentals\ConditionsAndLoopsExercises\P04Hotel\bin\Debug\netcoreapp2.0\P04Hotel.pdb
+D:\aSa6o\Programming\GitHubRepositories\Software-University-Technology-Fundamentals\ConditionsAndLoopsExercises\P04Hotel\obj\Debug\netcoreapp2.0\P04Hotel.csprojResolveAssemblyReference.cache
+D:\aSa6o\Programming\GitHubRepositories\Software-University-Technology-Fundamentals\ConditionsAndLoopsExercises\P04Hotel\obj\Debug\netcoreapp2.0\P04Hotel.csproj.CoreCompileInputs.cache
+D:\aSa6o\Programming\GitHubRepositories\Software-University-Technology-Fundamentals\ConditionsAndLoopsExercises\P04Hotel\obj\Debug\netcoreapp2.0\P04Hotel.AssemblyInfoInputs.cache
+D:\aSa6o\Programming\GitHubRepositories\Software-University-Technology-Fundamentals\ConditionsAndLoopsExercises\P04Hotel\obj\Debug\netcoreapp2.0\P04Hotel.AssemblyInfo.cs
+D:\aSa6o\Programming\GitHubRepositories\Software-University-Technology-Fundamentals\ConditionsAndLoopsExercises\P04Hotel\obj\Debug\netcoreapp2.0\P04Hotel.dll
+D:\aSa6o\Programming\GitHubRepositories\Software-University-Technology-Fundamentals\ConditionsAndLoopsExercises\P04Hotel\obj\Debug\netcoreapp2.0\P04Hotel.pdb
