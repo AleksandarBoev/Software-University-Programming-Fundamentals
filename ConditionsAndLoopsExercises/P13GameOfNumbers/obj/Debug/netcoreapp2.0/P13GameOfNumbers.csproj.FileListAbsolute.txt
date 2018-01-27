@@ -1,0 +1,11 @@
+D:\aSa6o\Programming\GitHubRepositories\Software-University-Technology-Fundamentals\ConditionsAndLoopsExercises\P13GameOfNumbers\bin\Debug\netcoreapp2.0\P13GameOfNumbers.deps.json
+D:\aSa6o\Programming\GitHubRepositories\Software-University-Technology-Fundamentals\ConditionsAndLoopsExercises\P13GameOfNumbers\bin\Debug\netcoreapp2.0\P13GameOfNumbers.runtimeconfig.json
+D:\aSa6o\Programming\GitHubRepositories\Software-University-Technology-Fundamentals\ConditionsAndLoopsExercises\P13GameOfNumbers\bin\Debug\netcoreapp2.0\P13GameOfNumbers.runtimeconfig.dev.json
+D:\aSa6o\Programming\GitHubRepositories\Software-University-Technology-Fundamentals\ConditionsAndLoopsExercises\P13GameOfNumbers\bin\Debug\netcoreapp2.0\P13GameOfNumbers.dll
+D:\aSa6o\Programming\GitHubRepositories\Software-University-Technology-Fundamentals\ConditionsAndLoopsExercises\P13GameOfNumbers\bin\Debug\netcoreapp2.0\P13GameOfNumbers.pdb
+D:\aSa6o\Programming\GitHubRepositories\Software-University-Technology-Fundamentals\ConditionsAndLoopsExercises\P13GameOfNumbers\obj\Debug\netcoreapp2.0\P13GameOfNumbers.csprojResolveAssemblyReference.cache
+D:\aSa6o\Programming\GitHubRepositories\Software-University-Technology-Fundamentals\ConditionsAndLoopsExercises\P13GameOfNumbers\obj\Debug\netcoreapp2.0\P13GameOfNumbers.csproj.CoreCompileInputs.cache
+D:\aSa6o\Programming\GitHubRepositories\Software-University-Technology-Fundamentals\ConditionsAndLoopsExercises\P13GameOfNumbers\obj\Debug\netcoreapp2.0\P13GameOfNumbers.AssemblyInfoInputs.cache
+D:\aSa6o\Programming\GitHubRepositories\Software-University-Technology-Fundamentals\ConditionsAndLoopsExercises\P13GameOfNumbers\obj\Debug\netcoreapp2.0\P13GameOfNumbers.AssemblyInfo.cs
+D:\aSa6o\Programming\GitHubRepositories\Software-University-Technology-Fundamentals\ConditionsAndLoopsExercises\P13GameOfNumbers\obj\Debug\netcoreapp2.0\P13GameOfNumbers.dll
+D:\aSa6o\Programming\GitHubRepositories\Software-University-Technology-Fundamentals\ConditionsAndLoopsExercises\P13GameOfNumbers\obj\Debug\netcoreapp2.0\P13GameOfNumbers.pdb

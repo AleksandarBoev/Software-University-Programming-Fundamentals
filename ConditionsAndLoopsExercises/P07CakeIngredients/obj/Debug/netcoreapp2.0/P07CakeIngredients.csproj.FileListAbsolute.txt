@@ -1,0 +1,11 @@
+D:\aSa6o\Programming\GitHubRepositories\Software-University-Technology-Fundamentals\ConditionsAndLoopsExercises\P07CakeIngredients\bin\Debug\netcoreapp2.0\P07CakeIngredients.deps.json
+D:\aSa6o\Programming\GitHubRepositories\Software-University-Technology-Fundamentals\ConditionsAndLoopsExercises\P07CakeIngredients\bin\Debug\netcoreapp2.0\P07CakeIngredients.runtimeconfig.json
+D:\aSa6o\Programming\GitHubRepositories\Software-University-Technology-Fundamentals\ConditionsAndLoopsExercises\P07CakeIngredients\bin\Debug\netcoreapp2.0\P07CakeIngredients.runtimeconfig.dev.json
+D:\aSa6o\Programming\GitHubRepositories\Software-University-Technology-Fundamentals\ConditionsAndLoopsExercises\P07CakeIngredients\bin\Debug\netcoreapp2.0\P07CakeIngredients.dll
+D:\aSa6o\Programming\GitHubRepositories\Software-University-Technology-Fundamentals\ConditionsAndLoopsExercises\P07CakeIngredients\bin\Debug\netcoreapp2.0\P07CakeIngredients.pdb
+D:\aSa6o\Programming\GitHubRepositories\Software-University-Technology-Fundamentals\ConditionsAndLoopsExercises\P07CakeIngredients\obj\Debug\netcoreapp2.0\P07CakeIngredients.csprojResolveAssemblyReference.cache
+D:\aSa6o\Programming\GitHubRepositories\Software-University-Technology-Fundamentals\ConditionsAndLoopsExercises\P07CakeIngredients\obj\Debug\netcoreapp2.0\P07CakeIngredients.csproj.CoreCompileInputs.cache
+D:\aSa6o\Programming\GitHubRepositories\Software-University-Technology-Fundamentals\ConditionsAndLoopsExercises\P07CakeIngredients\obj\Debug\netcoreapp2.0\P07CakeIngredients.AssemblyInfoInputs.cache
+D:\aSa6o\Programming\GitHubRepositories\Software-University-Technology-Fundamentals\ConditionsAndLoopsExercises\P07CakeIngredients\obj\Debug\netcoreapp2.0\P07CakeIngredients.AssemblyInfo.cs
+D:\aSa6o\Programming\GitHubRepositories\Software-University-Technology-Fundamentals\ConditionsAndLoopsExercises\P07CakeIngredients\obj\Debug\netcoreapp2.0\P07CakeIngredients.dll
+D:\aSa6o\Programming\GitHubRepositories\Software-University-Technology-Fundamentals\ConditionsAndLoopsExercises\P07CakeIngredients\obj\Debug\netcoreapp2.0\P07CakeIngredients.pdb

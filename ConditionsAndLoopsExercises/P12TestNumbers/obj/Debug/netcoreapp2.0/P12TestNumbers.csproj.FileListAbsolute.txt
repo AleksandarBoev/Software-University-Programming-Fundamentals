@@ -1,0 +1,11 @@
+D:\aSa6o\Programming\GitHubRepositories\Software-University-Technology-Fundamentals\ConditionsAndLoopsExercises\P12TestNumbers\bin\Debug\netcoreapp2.0\P12TestNumbers.deps.json
+D:\aSa6o\Programming\GitHubRepositories\Software-University-Technology-Fundamentals\ConditionsAndLoopsExercises\P12TestNumbers\bin\Debug\netcoreapp2.0\P12TestNumbers.runtimeconfig.json
+D:\aSa6o\Programming\GitHubRepositories\Software-University-Technology-Fundamentals\ConditionsAndLoopsExercises\P12TestNumbers\bin\Debug\netcoreapp2.0\P12TestNumbers.runtimeconfig.dev.json
+D:\aSa6o\Programming\GitHubRepositories\Software-University-Technology-Fundamentals\ConditionsAndLoopsExercises\P12TestNumbers\bin\Debug\netcoreapp2.0\P12TestNumbers.dll
+D:\aSa6o\Programming\GitHubRepositories\Software-University-Technology-Fundamentals\ConditionsAndLoopsExercises\P12TestNumbers\bin\Debug\netcoreapp2.0\P12TestNumbers.pdb
+D:\aSa6o\Programming\GitHubRepositories\Software-University-Technology-Fundamentals\ConditionsAndLoopsExercises\P12TestNumbers\obj\Debug\netcoreapp2.0\P12TestNumbers.csprojResolveAssemblyReference.cache
+D:\aSa6o\Programming\GitHubRepositories\Software-University-Technology-Fundamentals\ConditionsAndLoopsExercises\P12TestNumbers\obj\Debug\netcoreapp2.0\P12TestNumbers.csproj.CoreCompileInputs.cache
+D:\aSa6o\Programming\GitHubRepositories\Software-University-Technology-Fundamentals\ConditionsAndLoopsExercises\P12TestNumbers\obj\Debug\netcoreapp2.0\P12TestNumbers.AssemblyInfoInputs.cache
+D:\aSa6o\Programming\GitHubRepositories\Software-University-Technology-Fundamentals\ConditionsAndLoopsExercises\P12TestNumbers\obj\Debug\netcoreapp2.0\P12TestNumbers.AssemblyInfo.cs
+D:\aSa6o\Programming\GitHubRepositories\Software-University-Technology-Fundamentals\ConditionsAndLoopsExercises\P12TestNumbers\obj\Debug\netcoreapp2.0\P12TestNumbers.dll
+D:\aSa6o\Programming\GitHubRepositories\Software-University-Technology-Fundamentals\ConditionsAndLoopsExercises\P12TestNumbers\obj\Debug\netcoreapp2.0\P12TestNumbers.pdb
