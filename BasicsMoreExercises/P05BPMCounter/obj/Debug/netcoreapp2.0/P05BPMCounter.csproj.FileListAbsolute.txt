@@ -1,0 +1,11 @@
+D:\aSa6o\Programming\GitHubRepositories\Software-University-Technology-Fundamentals\BasicsMoreExercises\P05BPMCounter\bin\Debug\netcoreapp2.0\P05BPMCounter.deps.json
+D:\aSa6o\Programming\GitHubRepositories\Software-University-Technology-Fundamentals\BasicsMoreExercises\P05BPMCounter\bin\Debug\netcoreapp2.0\P05BPMCounter.runtimeconfig.json
+D:\aSa6o\Programming\GitHubRepositories\Software-University-Technology-Fundamentals\BasicsMoreExercises\P05BPMCounter\bin\Debug\netcoreapp2.0\P05BPMCounter.runtimeconfig.dev.json
+D:\aSa6o\Programming\GitHubRepositories\Software-University-Technology-Fundamentals\BasicsMoreExercises\P05BPMCounter\bin\Debug\netcoreapp2.0\P05BPMCounter.dll
+D:\aSa6o\Programming\GitHubRepositories\Software-University-Technology-Fundamentals\BasicsMoreExercises\P05BPMCounter\bin\Debug\netcoreapp2.0\P05BPMCounter.pdb
+D:\aSa6o\Programming\GitHubRepositories\Software-University-Technology-Fundamentals\BasicsMoreExercises\P05BPMCounter\obj\Debug\netcoreapp2.0\P05BPMCounter.csprojResolveAssemblyReference.cache
+D:\aSa6o\Programming\GitHubRepositories\Software-University-Technology-Fundamentals\BasicsMoreExercises\P05BPMCounter\obj\Debug\netcoreapp2.0\P05BPMCounter.csproj.CoreCompileInputs.cache
+D:\aSa6o\Programming\GitHubRepositories\Software-University-Technology-Fundamentals\BasicsMoreExercises\P05BPMCounter\obj\Debug\netcoreapp2.0\P05BPMCounter.AssemblyInfoInputs.cache
+D:\aSa6o\Programming\GitHubRepositories\Software-University-Technology-Fundamentals\BasicsMoreExercises\P05BPMCounter\obj\Debug\netcoreapp2.0\P05BPMCounter.AssemblyInfo.cs
+D:\aSa6o\Programming\GitHubRepositories\Software-University-Technology-Fundamentals\BasicsMoreExercises\P05BPMCounter\obj\Debug\netcoreapp2.0\P05BPMCounter.dll
+D:\aSa6o\Programming\GitHubRepositories\Software-University-Technology-Fundamentals\BasicsMoreExercises\P05BPMCounter\obj\Debug\netcoreapp2.0\P05BPMCounter.pdb

@@ -1,0 +1,11 @@
+D:\aSa6o\Programming\GitHubRepositories\Software-University-Technology-Fundamentals\BasicsMoreExercises\P01X\bin\Debug\netcoreapp2.0\P01X.deps.json
+D:\aSa6o\Programming\GitHubRepositories\Software-University-Technology-Fundamentals\BasicsMoreExercises\P01X\bin\Debug\netcoreapp2.0\P01X.runtimeconfig.json
+D:\aSa6o\Programming\GitHubRepositories\Software-University-Technology-Fundamentals\BasicsMoreExercises\P01X\bin\Debug\netcoreapp2.0\P01X.runtimeconfig.dev.json
+D:\aSa6o\Programming\GitHubRepositories\Software-University-Technology-Fundamentals\BasicsMoreExercises\P01X\bin\Debug\netcoreapp2.0\P01X.dll
+D:\aSa6o\Programming\GitHubRepositories\Software-University-Technology-Fundamentals\BasicsMoreExercises\P01X\bin\Debug\netcoreapp2.0\P01X.pdb
+D:\aSa6o\Programming\GitHubRepositories\Software-University-Technology-Fundamentals\BasicsMoreExercises\P01X\obj\Debug\netcoreapp2.0\P01X.csprojResolveAssemblyReference.cache
+D:\aSa6o\Programming\GitHubRepositories\Software-University-Technology-Fundamentals\BasicsMoreExercises\P01X\obj\Debug\netcoreapp2.0\P01X.csproj.CoreCompileInputs.cache
+D:\aSa6o\Programming\GitHubRepositories\Software-University-Technology-Fundamentals\BasicsMoreExercises\P01X\obj\Debug\netcoreapp2.0\P01X.AssemblyInfoInputs.cache
+D:\aSa6o\Programming\GitHubRepositories\Software-University-Technology-Fundamentals\BasicsMoreExercises\P01X\obj\Debug\netcoreapp2.0\P01X.AssemblyInfo.cs
+D:\aSa6o\Programming\GitHubRepositories\Software-University-Technology-Fundamentals\BasicsMoreExercises\P01X\obj\Debug\netcoreapp2.0\P01X.dll
+D:\aSa6o\Programming\GitHubRepositories\Software-University-Technology-Fundamentals\BasicsMoreExercises\P01X\obj\Debug\netcoreapp2.0\P01X.pdb

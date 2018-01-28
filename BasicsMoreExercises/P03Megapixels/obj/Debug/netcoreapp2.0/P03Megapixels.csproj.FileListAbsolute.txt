@@ -1,0 +1,10 @@
+D:\aSa6o\Programming\GitHubRepositories\Software-University-Technology-Fundamentals\BasicsMoreExercises\P03Megapixels\bin\Debug\netcoreapp2.0\P03Megapixels.deps.json
+D:\aSa6o\Programming\GitHubRepositories\Software-University-Technology-Fundamentals\BasicsMoreExercises\P03Megapixels\bin\Debug\netcoreapp2.0\P03Megapixels.runtimeconfig.json
+D:\aSa6o\Programming\GitHubRepositories\Software-University-Technology-Fundamentals\BasicsMoreExercises\P03Megapixels\bin\Debug\netcoreapp2.0\P03Megapixels.runtimeconfig.dev.json
+D:\aSa6o\Programming\GitHubRepositories\Software-University-Technology-Fundamentals\BasicsMoreExercises\P03Megapixels\bin\Debug\netcoreapp2.0\P03Megapixels.dll
+D:\aSa6o\Programming\GitHubRepositories\Software-University-Technology-Fundamentals\BasicsMoreExercises\P03Megapixels\bin\Debug\netcoreapp2.0\P03Megapixels.pdb
+D:\aSa6o\Programming\GitHubRepositories\Software-University-Technology-Fundamentals\BasicsMoreExercises\P03Megapixels\obj\Debug\netcoreapp2.0\P03Megapixels.csproj.CoreCompileInputs.cache
+D:\aSa6o\Programming\GitHubRepositories\Software-University-Technology-Fundamentals\BasicsMoreExercises\P03Megapixels\obj\Debug\netcoreapp2.0\P03Megapixels.AssemblyInfoInputs.cache
+D:\aSa6o\Programming\GitHubRepositories\Software-University-Technology-Fundamentals\BasicsMoreExercises\P03Megapixels\obj\Debug\netcoreapp2.0\P03Megapixels.AssemblyInfo.cs
+D:\aSa6o\Programming\GitHubRepositories\Software-University-Technology-Fundamentals\BasicsMoreExercises\P03Megapixels\obj\Debug\netcoreapp2.0\P03Megapixels.dll
+D:\aSa6o\Programming\GitHubRepositories\Software-University-Technology-Fundamentals\BasicsMoreExercises\P03Megapixels\obj\Debug\netcoreapp2.0\P03Megapixels.pdb

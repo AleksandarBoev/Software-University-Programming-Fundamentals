@@ -1,0 +1,11 @@
+D:\aSa6o\Programming\GitHubRepositories\Software-University-Technology-Fundamentals\BasicsMoreExercises\P04PhotoGallery\bin\Debug\netcoreapp2.0\P04PhotoGallery.deps.json
+D:\aSa6o\Programming\GitHubRepositories\Software-University-Technology-Fundamentals\BasicsMoreExercises\P04PhotoGallery\bin\Debug\netcoreapp2.0\P04PhotoGallery.runtimeconfig.json
+D:\aSa6o\Programming\GitHubRepositories\Software-University-Technology-Fundamentals\BasicsMoreExercises\P04PhotoGallery\bin\Debug\netcoreapp2.0\P04PhotoGallery.runtimeconfig.dev.json
+D:\aSa6o\Programming\GitHubRepositories\Software-University-Technology-Fundamentals\BasicsMoreExercises\P04PhotoGallery\bin\Debug\netcoreapp2.0\P04PhotoGallery.dll
+D:\aSa6o\Programming\GitHubRepositories\Software-University-Technology-Fundamentals\BasicsMoreExercises\P04PhotoGallery\bin\Debug\netcoreapp2.0\P04PhotoGallery.pdb
+D:\aSa6o\Programming\GitHubRepositories\Software-University-Technology-Fundamentals\BasicsMoreExercises\P04PhotoGallery\obj\Debug\netcoreapp2.0\P04PhotoGallery.csprojResolveAssemblyReference.cache
+D:\aSa6o\Programming\GitHubRepositories\Software-University-Technology-Fundamentals\BasicsMoreExercises\P04PhotoGallery\obj\Debug\netcoreapp2.0\P04PhotoGallery.csproj.CoreCompileInputs.cache
+D:\aSa6o\Programming\GitHubRepositories\Software-University-Technology-Fundamentals\BasicsMoreExercises\P04PhotoGallery\obj\Debug\netcoreapp2.0\P04PhotoGallery.AssemblyInfoInputs.cache
+D:\aSa6o\Programming\GitHubRepositories\Software-University-Technology-Fundamentals\BasicsMoreExercises\P04PhotoGallery\obj\Debug\netcoreapp2.0\P04PhotoGallery.AssemblyInfo.cs
+D:\aSa6o\Programming\GitHubRepositories\Software-University-Technology-Fundamentals\BasicsMoreExercises\P04PhotoGallery\obj\Debug\netcoreapp2.0\P04PhotoGallery.dll
+D:\aSa6o\Programming\GitHubRepositories\Software-University-Technology-Fundamentals\BasicsMoreExercises\P04PhotoGallery\obj\Debug\netcoreapp2.0\P04PhotoGallery.pdb
