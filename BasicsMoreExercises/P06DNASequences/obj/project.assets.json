@@ -664,7 +664,7 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Alwxander\\.nuget\\packages\\": {},
+    "C:\\Users\\Username\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackagesFallback\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
@@ -674,18 +674,18 @@
       "hideWarningsAndErrors": true
     },
     "restore": {
-      "projectUniqueName": "E:\\GitHubRepositories\\Software-University-Technology-Fundamentals\\BasicsMoreExercises\\P06DNASequences\\P06DNASequences.csproj",
+      "projectUniqueName": "D:\\aSa6o\\Programming\\GitHubRepositories\\Software-University-Technology-Fundamentals\\BasicsMoreExercises\\P06DNASequences\\P06DNASequences.csproj",
       "projectName": "P06DNASequences",
-      "projectPath": "E:\\GitHubRepositories\\Software-University-Technology-Fundamentals\\BasicsMoreExercises\\P06DNASequences\\P06DNASequences.csproj",
-      "packagesPath": "C:\\Users\\Alwxander\\.nuget\\packages\\",
-      "outputPath": "E:\\GitHubRepositories\\Software-University-Technology-Fundamentals\\BasicsMoreExercises\\P06DNASequences\\obj\\",
+      "projectPath": "D:\\aSa6o\\Programming\\GitHubRepositories\\Software-University-Technology-Fundamentals\\BasicsMoreExercises\\P06DNASequences\\P06DNASequences.csproj",
+      "packagesPath": "C:\\Users\\Username\\.nuget\\packages\\",
+      "outputPath": "D:\\aSa6o\\Programming\\GitHubRepositories\\Software-University-Technology-Fundamentals\\BasicsMoreExercises\\P06DNASequences\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackagesFallback\\",
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\Alwxander\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Username\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.Fallback.config"
       ],
