@@ -664,7 +664,7 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Username\\.nuget\\packages\\": {},
+    "C:\\Users\\Alwxander\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackagesFallback\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
@@ -674,18 +674,18 @@
       "hideWarningsAndErrors": true
     },
     "restore": {
-      "projectUniqueName": "D:\\aSa6o\\Programming\\GitHubRepositories\\Software-University-Technology-Fundamentals\\BasicsMoreExercises\\P02VaporStore\\P02VaporStore.csproj",
+      "projectUniqueName": "E:\\GitHubRepositories\\Software-University-Technology-Fundamentals\\BasicsMoreExercises\\P02VaporStore\\P02VaporStore.csproj",
       "projectName": "P02VaporStore",
-      "projectPath": "D:\\aSa6o\\Programming\\GitHubRepositories\\Software-University-Technology-Fundamentals\\BasicsMoreExercises\\P02VaporStore\\P02VaporStore.csproj",
-      "packagesPath": "C:\\Users\\Username\\.nuget\\packages\\",
-      "outputPath": "D:\\aSa6o\\Programming\\GitHubRepositories\\Software-University-Technology-Fundamentals\\BasicsMoreExercises\\P02VaporStore\\obj\\",
+      "projectPath": "E:\\GitHubRepositories\\Software-University-Technology-Fundamentals\\BasicsMoreExercises\\P02VaporStore\\P02VaporStore.csproj",
+      "packagesPath": "C:\\Users\\Alwxander\\.nuget\\packages\\",
+      "outputPath": "E:\\GitHubRepositories\\Software-University-Technology-Fundamentals\\BasicsMoreExercises\\P02VaporStore\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackagesFallback\\",
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\Username\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Alwxander\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.Fallback.config"
       ],
