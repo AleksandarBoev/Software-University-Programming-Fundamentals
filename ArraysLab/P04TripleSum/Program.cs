@@ -13,20 +13,26 @@ namespace P04TripleSum
 
             bool oneSum = false;
 
-            for (int number1 = 0; number1 < arrayOfNumbers.Length; number1++)
+            for (int number1 = 0; number1 < arrayOfNumbers.Length - 1; number1++)
             {
                 for (int number2 = number1 + 1; number2 < arrayOfNumbers.Length; number2++)
                 {
                     long sum = arrayOfNumbers[number1] + arrayOfNumbers[number2];
 
-                    for (int i = 0; i < arrayOfNumbers.Length; i++)
+                    if (arrayOfNumbers.Contains(sum))
                     {
-                        if (sum == arrayOfNumbers[i])
-                        {
-                            Console.WriteLine($"{arrayOfNumbers[number1]} + {arrayOfNumbers[number2]} == {sum}");
-                            oneSum = true;
-                        }
+                        Console.WriteLine($"{arrayOfNumbers[number1]} + {arrayOfNumbers[number2]} == {sum}");
+                        oneSum = true;
                     }
+
+                    //for (int i = 0; i < arrayOfNumbers.Length; i++)
+                    //{
+                    //    if (sum == arrayOfNumbers[i])
+                    //    {
+                    //        Console.WriteLine($"{arrayOfNumbers[number1]} + {arrayOfNumbers[number2]} == {sum}");
+                    //        oneSum = true;
+                    //    }
+                    //}
                 }
             }
 
