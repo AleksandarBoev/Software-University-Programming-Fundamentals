@@ -8,41 +8,35 @@ namespace P05PizzaIngredients
         static void Main()
         {
             string[] ingredients = Console.ReadLine().Split(' ').ToArray();
-            int ingredientNameLength = int.Parse(Console.ReadLine());
+            int ingredientLettersCount = int.Parse(Console.ReadLine());
 
-            string allIngredients = "";
-            bool atLeastOneValidIngredient = false; // ne dava dopulnitelni tochki...
+            int ingredientsCount = 0;
+            string allIngredientsUsed = "";
 
-            for (int i = 0; i < ingredients.Length; i++)
+            for (int index = 0; index < ingredients.Length; index++)
             {
-                if (i > 9)
+                if (ingredients[index].Length == ingredientLettersCount)
+                {
+                    ingredientsCount++;
+                    allIngredientsUsed += ingredients[index] + " ";
+                    Console.WriteLine($"Adding {ingredients[index]}.");
+                }
+
+                if (ingredientsCount == 10)
                 {
                     break;
                 }
-                if (ingredients[i].Length == ingredientNameLength) 
-                {
-                    Console.WriteLine($"Adding {ingredients[i]}.");
-                    allIngredients = allIngredients + ingredients[i] + " ";
-                    atLeastOneValidIngredient = true;
-                }
             }
 
-            allIngredients = allIngredients.Trim();
-            string[] output = allIngredients.Split(' ').ToArray();
-            //output = output.Distinct().ToArray(); // trqbva da ima duplikati i pri printirane "Adding" i pri printirane "The ingredients are "
-            int numberOfIngredientsUsed = 0;
-            if (atLeastOneValidIngredient)
-            {
-                numberOfIngredientsUsed = output.Length;
-                Console.WriteLine($"Made pizza with total of {numberOfIngredientsUsed} ingredients.");
-                Console.WriteLine("The ingredients are: " + string.Join(", ", output) + '.');
-            }
+            Console.WriteLine($"Made pizza with total of {ingredientsCount} ingredients.");
 
+            allIngredientsUsed = allIngredientsUsed.Trim();
+            string[] answer = allIngredientsUsed.Split(' ').ToArray();
+
+            Console.WriteLine($"The ingredients are: {string.Join(", ", answer)}.");
 
             //main ends here
         }
-
-       
 
     }
 }

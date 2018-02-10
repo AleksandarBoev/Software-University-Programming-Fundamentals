@@ -3,15 +3,23 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.27130.2010
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P01ArrayStatistics", "P01ArrayStatistics\P01ArrayStatistics.csproj", "{2D7AD424-14AB-47D5-952B-EDE903EBF80F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "P01ArrayStatistics", "P01ArrayStatistics\P01ArrayStatistics.csproj", "{2D7AD424-14AB-47D5-952B-EDE903EBF80F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P02ManipulateArray", "P02ManipulateArray\P02ManipulateArray.csproj", "{3C9105F0-C11E-4EC8-85ED-AA3AA8065147}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "P02ManipulateArray", "P02ManipulateArray\P02ManipulateArray.csproj", "{3C9105F0-C11E-4EC8-85ED-AA3AA8065147}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P03SafeManipulation", "P03SafeManipulation\P03SafeManipulation.csproj", "{6AB38852-F240-4E7B-8AB7-317124819EC7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "P03SafeManipulation", "P03SafeManipulation\P03SafeManipulation.csproj", "{6AB38852-F240-4E7B-8AB7-317124819EC7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P04GrabAndGo", "P04GrabAndGo\P04GrabAndGo.csproj", "{D5D83037-661E-4297-B2E4-2FC4F10E98BE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "P04GrabAndGo", "P04GrabAndGo\P04GrabAndGo.csproj", "{D5D83037-661E-4297-B2E4-2FC4F10E98BE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P05PizzaIngredients", "P05PizzaIngredients\P05PizzaIngredients.csproj", "{A9F19160-9573-4502-9E1F-2BA1F8985D09}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "P05PizzaIngredients", "P05PizzaIngredients\P05PizzaIngredients.csproj", "{A9F19160-9573-4502-9E1F-2BA1F8985D09}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P06Heists", "P06Heists\P06Heists.csproj", "{B99630AE-2833-44E8-A375-1988AC870033}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P07InventoryMatcher", "P07InventoryMatcher\P07InventoryMatcher.csproj", "{121566D8-9440-40AA-A80A-7B8349B46173}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P08UpgradedMatcher", "P08UpgradedMatcher\P08UpgradedMatcher.csproj", "{AF99B4FF-D080-47FA-8A5B-22F4FFD132FF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P09JumpAround", "09. JumpAround\P09JumpAround.csproj", "{0F9E48B7-8D77-4078-8D9E-B806B70A46F5}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +47,22 @@ Global
 		{A9F19160-9573-4502-9E1F-2BA1F8985D09}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A9F19160-9573-4502-9E1F-2BA1F8985D09}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A9F19160-9573-4502-9E1F-2BA1F8985D09}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B99630AE-2833-44E8-A375-1988AC870033}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B99630AE-2833-44E8-A375-1988AC870033}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B99630AE-2833-44E8-A375-1988AC870033}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B99630AE-2833-44E8-A375-1988AC870033}.Release|Any CPU.Build.0 = Release|Any CPU
+		{121566D8-9440-40AA-A80A-7B8349B46173}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{121566D8-9440-40AA-A80A-7B8349B46173}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{121566D8-9440-40AA-A80A-7B8349B46173}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{121566D8-9440-40AA-A80A-7B8349B46173}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AF99B4FF-D080-47FA-8A5B-22F4FFD132FF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AF99B4FF-D080-47FA-8A5B-22F4FFD132FF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AF99B4FF-D080-47FA-8A5B-22F4FFD132FF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AF99B4FF-D080-47FA-8A5B-22F4FFD132FF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0F9E48B7-8D77-4078-8D9E-B806B70A46F5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0F9E48B7-8D77-4078-8D9E-B806B70A46F5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0F9E48B7-8D77-4078-8D9E-B806B70A46F5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0F9E48B7-8D77-4078-8D9E-B806B70A46F5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

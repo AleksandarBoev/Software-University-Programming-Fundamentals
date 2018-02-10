@@ -17,8 +17,8 @@ namespace P02ManipulateArray
                 switch (command[0])
                 {
                     case "Distinct":
-                        //Distinct(numberWords); //doesn't work
-                        numberWords = numberWords.Distinct().ToArray();
+                        numberWords = Distinct(numberWords); // ne znam zashto ne iska da se promeni, kato e podadeno kato vhoden parametur
+                        //numberWords = numberWords.Distinct().ToArray();
                         break;
 
                     case "Reverse":
@@ -54,54 +54,43 @@ namespace P02ManipulateArray
             }
         }
 
-        static void Distinct(string[] arrayOfStrings)
+        static string[] Distinct(string[] arrayOfStrings) // works
         {
-            int numberOfUniqueElements = 1;
-            bool[] isUnique = new bool[arrayOfStrings.Length]; // dulgo kolkoto string[]. vseki true indeks na bool[] se otnasq za unikalnite elementi na string[]
-
-            for (int index = 0; index < isUnique.Length; index++) // vsichki v nachaloto sa unikalni
-            {
-                isUnique[index] = true;
-            }
-
-            for (int index = 0; index < arrayOfStrings.Length - 1; index++)
-            {
-                if (isUnique[index] == false)
-                {
-                    continue;
-                }
-                else
-                {
-                    numberOfUniqueElements++;
-                }
-
-                for (int index2 = index + 1; index2 < arrayOfStrings.Length; index2++) // ako se povtarq stava false
-                {
-                    if (arrayOfStrings[index] == arrayOfStrings[index2])
-                    {
-                        isUnique[index2] = false;
-                    }
-                }
-            }
-
-            string[] newArray = new string[numberOfUniqueElements];
-            int iterator = 0;
+            string[] newArray = new string[arrayOfStrings.Length];
+            int newArrayIndex = 0;
 
             for (int index = 0; index < arrayOfStrings.Length; index++)
             {
-                if (isUnique[index])
+                if (CheckForOccurence(newArray, arrayOfStrings[index]) == false)
                 {
-                    newArray[iterator] = arrayOfStrings[index];
-                    iterator++;
+                    newArray[newArrayIndex] = arrayOfStrings[index];
+                    newArrayIndex++;
                 }
             }
 
-            arrayOfStrings = newArray;
+            string[] answerArray = new string[newArrayIndex];
 
-            Console.ReadLine();
+            for (int index = 0; index < answerArray.Length; index++)
+            {
+                answerArray[index] = newArray[index];
+            }
 
+            return answerArray;
         }
 
-            //class ends here
+        static bool CheckForOccurence(string[] arrayOfStrings, string value)
+        {
+            for (int i = 0; i < arrayOfStrings.Length; i++)
+            {
+                if (arrayOfStrings[i] == value)
+                {
+                    return true;
+                }
+            }
+
+            return false;
+        }
+
+        //class ends here
     }
 }

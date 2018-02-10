@@ -8,23 +8,27 @@ namespace P01RemoveNegativesAndReverse
     {
         static void Main(string[] args)
         {
-            List<int> listOfNumbers = new List<int>();
+            int[] numbers = Console.ReadLine().Split(' ').Select(int.Parse).ToArray();
+            List<int> nonNegativeNumbers = new List<int>();
 
-            string inputData = Console.ReadLine();
-
-            listOfNumbers = inputData.Split(' ').Select(int.Parse).ToList();
-
-            for (int index = listOfNumbers.Count - 1; index >= 0; index--)
+            for (int index = 0; index < numbers.Length; index++)
             {
-                if (listOfNumbers[index] < 0)
+                if (numbers[index] >= 0)
                 {
-                    listOfNumbers.RemoveAt(index);
+                    nonNegativeNumbers.Add(numbers[index]);
                 }
             }
 
-            listOfNumbers.Reverse();
+            nonNegativeNumbers.Reverse();
 
-            Console.WriteLine(string.Join(" ", listOfNumbers));
+            if (nonNegativeNumbers.Count > 0)
+            {
+                Console.WriteLine(string.Join(" ", nonNegativeNumbers));
+            }
+            else
+            {
+                Console.WriteLine("empty");
+            }
 
             //main ends here
         }
