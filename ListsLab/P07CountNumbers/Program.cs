@@ -8,32 +8,49 @@ namespace P07CountNumbers
     {
         static void Main(string[] args)
         {
-            List<int> numbers = Console.ReadLine().Split(' ').Select(int.Parse).ToList();
+            int[] numbers = Console.ReadLine().Split(' ').Select(int.Parse).ToArray();
+            List<int> uniqueNumbers = BuildUniqueNumbersList(numbers);
 
-            numbers.Sort();
-            int currentNumberCount = 1;
+            uniqueNumbers.Sort();
 
-            for (int i = 0; i < numbers.Count - 1; i++)
+            for (int i = 0; i < uniqueNumbers.Count; i++)
             {
-                if (numbers[i] == numbers[i + 1])
-                {
-                    currentNumberCount++;
-                }
-                else
-                {
-                    Console.WriteLine($"{numbers[i]} -> {currentNumberCount}");
-                    currentNumberCount = 1;
-                    if (i + 1 == numbers.Count - 1)
-                    {
-                        Console.WriteLine($"{numbers[i + 1]} -> {currentNumberCount}");
-                    }
-                }
+                int value = uniqueNumbers[i];
+                int valueRepeated = GetRecurrenceCount(numbers, value);
+                Console.WriteLine($"{value} -> {valueRepeated}");
             }
 
             //main ends here
         }
 
-        //static int GetRecurrenceCount()
+        static int GetRecurrenceCount(int[] numbers, int value)
+        {
+            int count = 0;
+            for (int i = 0; i < numbers.Length; i++)
+            {
+                if (numbers[i] == value)
+                {
+                    count++;
+                }
+            }
+
+            return count;
+        }
+
+        static List<int> BuildUniqueNumbersList(int[] numbers)
+        {
+            List<int> result = new List<int>();
+            
+            for (int i = 0; i < numbers.Length; i++)
+            {
+                if (result.Contains(numbers[i]) == false)
+                {
+                    result.Add(numbers[i]);
+                }
+            }
+
+            return result;
+        }
 
         //class
     }

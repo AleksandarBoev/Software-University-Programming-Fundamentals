@@ -8,24 +8,28 @@ namespace P03SumAdjacentEqualNumbers
     {
         static void Main(string[] args)
         {
-            List<int> numbers = Console.ReadLine().Split(' ').Select(int.Parse).ToList();
+            List<decimal> numbers = Console.ReadLine().Split(' ').Select(decimal.Parse).ToList();
 
             bool equalsFound = false;
 
-            for (int index = 0; index < numbers.Count - 1; index++)
+            int index = 0;
+            while (index < numbers.Count - 1)
             {
-                if (equalsFound)
-                {
-                    index = 0;
-                    equalsFound = false;
-                }
-
                 if (numbers[index] == numbers[index + 1])
                 {
                     numbers[index] += numbers[index];
                     numbers.RemoveAt(index + 1);
                     equalsFound = true;
-                    index--;
+                }
+
+                if (equalsFound)
+                {
+                    index = 0;
+                    equalsFound = false;
+                }
+                else
+                {
+                    index++;
                 }
 
                 if (numbers.Count == 1)

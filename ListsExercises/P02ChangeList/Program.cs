@@ -9,52 +9,49 @@ namespace P02ChangeList
     {
         static void Main(string[] args)
         {
-            List<int> numbers = new List<int>();
-            numbers = Console.ReadLine().Split(' ').Select(int.Parse).ToList();
+            List<int> numbers = Console.ReadLine().Split(' ').Select(int.Parse).ToList();
 
-            string command = "";
-
-            while (command != "Odd" && command != "Even")
+            while (true)
             {
-                string[] userInput = Console.ReadLine().Split(' ').ToArray();
-                command = userInput[0]; //vinagi purviq element na masiva e komandata
-                
-                switch (command)
+                List<string> currentCommand = Console.ReadLine().Split(' ').ToList();
+
+                if (currentCommand[0] == "Delete")
                 {
-                    case "Delete":
-                        int deleteThisValue = int.Parse(userInput[1]);
-                        while (numbers.Remove(deleteThisValue))
+                    int removeValue = int.Parse(currentCommand[1]);
+                    while (numbers.Contains(removeValue))
+                    {
+                        numbers.Remove(removeValue);
+                    }
+                }
+                else if (currentCommand[0] == "Insert") 
+                {
+                    int insertValue = int.Parse(currentCommand[1]);
+                    int insertIndex = int.Parse(currentCommand[2]);
+                    numbers.Insert(insertIndex, insertValue);
+                }
+                else if (currentCommand[0] == "Odd")
+                {
+                    for (int i = 0; i < numbers.Count; i++)
+                    {
+                        if (numbers[i] % 2 == 1)
                         {
-
+                            Console.Write("" + numbers[i] + ' ');
                         }
-                            break;
-                    case "Insert":
-                        int index = int.Parse(userInput[1]);
-                        int value = int.Parse(userInput[2]);
-                        numbers.Insert(index, value);
-                        break;
-
-                    case "Odd":
-                        foreach (var item in numbers)
+                    }
+                    return;
+                }
+                else if (currentCommand[0] == "Even")
+                {
+                    for (int i = 0; i < numbers.Count; i++)
+                    {
+                        if (numbers[i] % 2 == 0)
                         {
-                            if (item % 2 == 1)
-                            {
-                                Console.Write(item + " ");
-                            }
+                            Console.Write("" + numbers[i] + ' ');
                         }
-                        break;
-                    case "Even":
-                        foreach (var item in numbers)
-                        {
-                            if (item % 2 == 1)
-                            {
-                                Console.Write(item + " ");
-                            }
-                        }
-                        break;
+                    }
+                    return;
                 }
 
-                
             }
 
             //main ends here
