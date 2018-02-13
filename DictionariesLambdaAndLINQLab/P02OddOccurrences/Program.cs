@@ -9,32 +9,32 @@ namespace P02OddOccurrences
         static void Main(string[] args)
         {
             Dictionary<string, int> wordCount = new Dictionary<string, int>();
-            string[] input = Console.ReadLine().Split(' ').ToArray();
+            string[] words = Console.ReadLine().Split(' ').ToArray();
 
-            for (int i = 0; i < input.Length; i++)
+            foreach (string word in words)
             {
-                string lowerCase = input[i].ToLower();
-                if (wordCount.ContainsKey(lowerCase) == false)
+                string lowerCaseWord = word.ToLower();
+                if (wordCount.ContainsKey(lowerCaseWord) == false)
                 {
-                    wordCount.Add(lowerCase, 1);
+                    wordCount.Add(lowerCaseWord, 1);
                 }
                 else
                 {
-                    wordCount[lowerCase]++;
+                    wordCount[lowerCaseWord]++;
                 }
             }
 
-            string answer = "";
-            foreach (var kvp in wordCount)
+            List<string> oddOccurenceWords = new List<string>();
+
+            foreach (string word in wordCount.Keys)
             {
-                if (kvp.Value % 2 == 1)
+                if (wordCount[word] % 2 == 1)
                 {
-                    answer += kvp.Key + ", ";
+                    oddOccurenceWords.Add(word);
                 }
             }
 
-            answer = answer.Trim(',', ' ');
-            Console.WriteLine(answer);
+            Console.WriteLine(string.Join(", ", oddOccurenceWords));
 
             //main ends here
         }

@@ -8,24 +8,24 @@ namespace P01CountRealNumbers
     {
         static void Main(string[] args)
         {
-            SortedDictionary<double, int> doubleCount = new SortedDictionary<double, int>();
-            double[] doublesInput = Console.ReadLine().Split(' ').Select(double.Parse).ToArray();
+            SortedDictionary<double, int> doublesCount = new SortedDictionary<double, int>(); // v momenta v koito se dobavqt elementi stava sortiraneto
+            double[] input = Console.ReadLine().Split(' ').Select(x => double.Parse(x)).ToArray(); // var/return x = double.Parse(x) -> mini method
 
-            foreach (double value in doublesInput)
+            foreach (double value in input)
             {
-                if (doubleCount.ContainsKey(value) == false)
+                if (doublesCount.ContainsKey(value) == false)
                 {
-                    doubleCount.Add(value, 1);
+                    doublesCount.Add(value, 1);
                 }
                 else
                 {
-                    doubleCount[value] = doubleCount[value] + 1;
+                    doublesCount[value]++;
                 }
             }
 
-            foreach (var kvp in doubleCount)
+            foreach (var key in doublesCount.Keys)
             {
-                Console.WriteLine($"{kvp.Key} -> {kvp.Value}");
+                Console.WriteLine($"{key} -> {doublesCount[key]}");
             }
 
             //main ends here
