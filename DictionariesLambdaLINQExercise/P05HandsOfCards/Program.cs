@@ -22,7 +22,7 @@ namespace P05HandsOfCards
 
                 cards = cards.Trim();
                 List<string> cardsList = new List<string>();
-                cardsList = cards.Split(',', StringSplitOptions.RemoveEmptyEntries).Select(x => x.Trim()).Distinct().ToList(); // sigurno moje i po po-dobur nachin
+                cardsList = cards.Split(",".ToArray(), StringSplitOptions.RemoveEmptyEntries).Select(x => x.Trim()).Distinct().ToList(); // sigurno moje i po po-dobur nachin
 
                 if (nameCards.ContainsKey(name) == false)
                 {

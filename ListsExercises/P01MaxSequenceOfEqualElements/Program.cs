@@ -9,7 +9,7 @@ namespace P01MaxSequenceOfEqualElements
         static void Main(string[] args)
         {
             List<int> listOfNumbers = new List<int>();
-            listOfNumbers = Console.ReadLine().Split(' ').Select(int.Parse).ToList();
+            listOfNumbers = Console.ReadLine().Split(' ', StringSplitOptions.RemoveEmptyEntries).Select(int.Parse).ToList();
 
             int bestStart = 0;
             int currentStart = 0;
