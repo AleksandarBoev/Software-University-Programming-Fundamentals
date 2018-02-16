@@ -1,16 +1,12 @@
 ﻿using System;
-<<<<<<< HEAD
 using System.Collections.Generic;
 using System.Globalization;
 using System.Linq;
-=======
->>>>>>> 5951df3f89787f951488d553c98e230b2b9317e3
 
 namespace P01CountWorkingDays
 {
     class Program
     {
-<<<<<<< HEAD
         private static string input1;
         private static string input2;
         private static string format;
@@ -106,11 +102,9 @@ namespace P01CountWorkingDays
             //class ends here
         }
     }
-=======
-        static void Main(string[] args)
-        {
-            Console.WriteLine("Hello World!");
-        }
+       // static void Main(string[] args)
+       // {
+       //     Console.WriteLine("Hello World!");
+       // }
     }
 }
->>>>>>> 5951df3f89787f951488d553c98e230b2b9317e3
