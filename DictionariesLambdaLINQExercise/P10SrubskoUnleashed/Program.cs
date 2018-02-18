@@ -9,7 +9,7 @@ namespace P10SrubskoUnleashed
     {
         static void Main(string[] args)
         {
-            Dictionary<string, Dictionary<string, decimal>> placeSinger = new Dictionary<string, Dictionary<string, decimal>>();
+            Dictionary<string, Dictionary<string, ulong>> placeSinger = new Dictionary<string, Dictionary<string, ulong>>();
 
 
             while (true)
@@ -29,16 +29,23 @@ namespace P10SrubskoUnleashed
                 }
                 singer = singer.Trim();
 
+                if (index > 3 || index == 0) // pevecut ne moje da ima poveche ot 3 imena ili nito edno
+                {
+                    continue;
+                }
+
+
+
                 int ticketsSold = 0;
-                decimal ticketPrice = 0m;
+                int ticketPrice = 0;
                 try
                 { 
                 ticketsSold = int.Parse(input[input.Length - 1]); // cena na bilet i prodadeni sa vinagi na posledno i predposledno mqsto
-                ticketPrice = decimal.Parse(input[input.Length - 2]); // parite se smqtat v decimal
+                ticketPrice = int.Parse(input[input.Length - 2]);
                 }
                 catch
                 {
-                    continue;
+                    continue; // incorrect input => next iteration
                 }
 
                 string place = "";
@@ -51,19 +58,19 @@ namespace P10SrubskoUnleashed
 
                 if (placeSinger.ContainsKey(place) == false)
                 {
-                    Dictionary<string, decimal> singerMoneyMade = new Dictionary<string, decimal>();
-                    singerMoneyMade.Add(singer, ticketPrice * ticketsSold);
+                    Dictionary<string, ulong> singerMoneyMade = new Dictionary<string, ulong>();
+                    singerMoneyMade.Add(singer, (ulong)ticketPrice * (ulong)ticketsSold);
                     placeSinger.Add(place, singerMoneyMade);
                 }
                 else // ako mqstoto veche e bilo dobaveno
                 {
                     if (placeSinger[place].ContainsKey(singer) == false) // ako pevecut e nov
                     {
-                        placeSinger[place].Add(singer, ticketPrice * ticketsSold);
+                        placeSinger[place].Add(singer, (ulong)ticketPrice * (ulong)ticketsSold);
                     }
                     else // ako pevecut ne e nov za mqstoto
                     {
-                        placeSinger[place][singer] += ticketPrice * ticketsSold;
+                        placeSinger[place][singer] += (ulong)ticketPrice * (ulong)ticketsSold;
                     }
                 }
 

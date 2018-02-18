@@ -17,11 +17,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "P06UserLogs", "P06UserLogs\
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "P07PopulationCounter", "P07PopulationCounter\P07PopulationCounter.csproj", "{76B0B340-E8C2-4611-90E5-BBB2C8C03A92}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P08LogsAggregator", "P08LogsAggregator\P08LogsAggregator.csproj", "{1312BAC8-E20D-404D-87D1-DD1222F98920}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "P08LogsAggregator", "P08LogsAggregator\P08LogsAggregator.csproj", "{1312BAC8-E20D-404D-87D1-DD1222F98920}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P09LegendaryFarming", "P09LegendaryFarming\P09LegendaryFarming.csproj", "{0F31E066-2C6E-4C54-B458-DE1BD5C6B390}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "P09LegendaryFarming", "P09LegendaryFarming\P09LegendaryFarming.csproj", "{0F31E066-2C6E-4C54-B458-DE1BD5C6B390}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P10SrubskoUnleashed", "P10SrubskoUnleashed\P10SrubskoUnleashed.csproj", "{FE49A3F0-8745-445C-AC66-3C6636A86247}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "P10SrubskoUnleashed", "P10SrubskoUnleashed\P10SrubskoUnleashed.csproj", "{FE49A3F0-8745-445C-AC66-3C6636A86247}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P11DragonArmy", "P11DragonArmy\P11DragonArmy.csproj", "{4B9E8A7F-FA7C-42C2-A9F3-6A04156FD73B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -69,6 +71,10 @@ Global
 		{FE49A3F0-8745-445C-AC66-3C6636A86247}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FE49A3F0-8745-445C-AC66-3C6636A86247}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FE49A3F0-8745-445C-AC66-3C6636A86247}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4B9E8A7F-FA7C-42C2-A9F3-6A04156FD73B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4B9E8A7F-FA7C-42C2-A9F3-6A04156FD73B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4B9E8A7F-FA7C-42C2-A9F3-6A04156FD73B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4B9E8A7F-FA7C-42C2-A9F3-6A04156FD73B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
