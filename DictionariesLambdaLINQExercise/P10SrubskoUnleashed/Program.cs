@@ -10,82 +10,65 @@ namespace P10SrubskoUnleashed
     {
         static void Main(string[] args)
         {
-            Dictionary<string, Dictionary<string, ulong>> placeSinger = new Dictionary<string, Dictionary<string, ulong>>();
+            Dictionary<string, Dictionary<string, ulong>> placeSinger = new Dictionary<string, Dictionary<string, ulong>>(); // i s decimal dava 70/100
 
 
             while (true)
             {
-                string realInput = Console.ReadLine();
-                string[] input = realInput.Split();//Console.ReadLine().Split();
+                int ticketPrice = 0;
+                int ticketsSold = 0;
+                string singer = "";
+                string place = "";
+                string[] input = Console.ReadLine().Split();
                 if (input[0] == "End")
                 {
                     break;
                 }
 
-                // validate data start
-                bool isValidInput = true;
-                StringBuilder sb = new StringBuilder();
-                int index1 = 0;
-                while (realInput[index1] != '@')
-                {
-                    //if ()
-                }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+                //validate data start_________________________________
 
                 int index = 0;
-                string singer = "";
-                while (input[index].Contains("@") == false) // dokato ne se stigne do "@", produljavai da chetesh imeto na pevecut
+                while (input[index].Contains('@') == false) // kato svurshi '@' shte go ima na poziciq "index"
                 {
                     singer += input[index] + ' ';
                     index++;
                 }
-                singer = singer.Trim();
-
-                if (index > 3 || index == 0) // pevecut ne moje da ima poveche ot 3 imena ili nito edno
+                if (singer == "" || IsWord(singer) == false)
                 {
                     continue;
                 }
 
+                if (input[index][0] != '@')
+                {
+                    continue;
+                }
+                else
+                {
+                    input[index] = string.Join("", input[index].Skip(1)); // preskochi purviq znak i zapishi vsichko ostanalo
+                }
+                singer = singer.Trim();
 
+                while (IsWord(input[index]))
+                {
+                    place += input[index] + ' ';
+                    index++;
+                }
+                place = place.Trim();
+                if (place == "")
+                {
+                    continue;
+                }
 
-                int ticketsSold = 0;
-                int ticketPrice = 0;
                 try
-                { 
-                ticketsSold = int.Parse(input[input.Length - 1]); // cena na bilet i prodadeni sa vinagi na posledno i predposledno mqsto
-                ticketPrice = int.Parse(input[input.Length - 2]);
+                {
+                    ticketPrice = int.Parse(input[index]);
+                    ticketsSold = int.Parse(input[index + 1]);
                 }
                 catch
                 {
-                    continue; // incorrect input => next iteration
+                    continue;
                 }
-
-                string place = "";
-                for (int i = index; i <= input.Length - 3; i++) // vsichko mejdu imeto na pevecut i infoto za biletite e mqstoto
-                {
-                    place += input[i] + ' ';
-                }
-                place = place.Replace('@', ' '); // zamesti go i posle Trim, sigurno ima i po-dobur nachin
-                place = place.Trim();
-
-                // validate data end
+                // validate data end_______________________________________________
 
                 if (placeSinger.ContainsKey(place) == false)
                 {
