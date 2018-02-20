@@ -13,9 +13,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "P06BookLibraryModification"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "P02AdvertisementMessage", "P02AdvertisementMessage\P02AdvertisementMessage.csproj", "{335EE0DD-9CFD-4315-B641-CAE12C3742BB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P03CirclesIntersection", "P03CirclesIntersection\P03CirclesIntersection.csproj", "{FDC14938-1396-4319-94B8-90C615377A78}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "P03CirclesIntersection", "P03CirclesIntersection\P03CirclesIntersection.csproj", "{FDC14938-1396-4319-94B8-90C615377A78}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P07AndreyAndBilliard", "P07AndreyAndBilliard\P07AndreyAndBilliard.csproj", "{FBA12875-8ABA-4092-AB5F-3485CD25BA47}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "P07AndreyAndBilliard", "P07AndreyAndBilliard\P07AndreyAndBilliard.csproj", "{FBA12875-8ABA-4092-AB5F-3485CD25BA47}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P08MentorGroup", "P08MentorGroup\P08MentorGroup.csproj", "{C96AF944-F628-424E-812B-620CD620EAC1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P09TeamworkProjects", "P09TeamworkProjects\P09TeamworkProjects.csproj", "{61C40705-F860-417E-8753-579BABC67BE6}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -51,6 +55,14 @@ Global
 		{FBA12875-8ABA-4092-AB5F-3485CD25BA47}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FBA12875-8ABA-4092-AB5F-3485CD25BA47}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FBA12875-8ABA-4092-AB5F-3485CD25BA47}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C96AF944-F628-424E-812B-620CD620EAC1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C96AF944-F628-424E-812B-620CD620EAC1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C96AF944-F628-424E-812B-620CD620EAC1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C96AF944-F628-424E-812B-620CD620EAC1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{61C40705-F860-417E-8753-579BABC67BE6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{61C40705-F860-417E-8753-579BABC67BE6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{61C40705-F860-417E-8753-579BABC67BE6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{61C40705-F860-417E-8753-579BABC67BE6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
