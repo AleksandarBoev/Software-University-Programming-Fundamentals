@@ -22,16 +22,16 @@ namespace P09TeamworkProjects
 
         }
 
-        
+        public static List<string> TeamNames { get; set; } = new List<string>();
+        public static List<string> Creators { get; set; } = new List<string>();
+        public static List<string> AllMembers { get; set; } = new List<string>();
+
     }
 
     class Program
     {
         static void Main(string[] args)
         {
-            List<string> teamNames = new List<string>();
-            List<string> creators = new List<string>();
-            List<string> allMembers = new List<string>();
             Dictionary<string, Team> nameTeam = new Dictionary<string, Team>();
 
             int numberOfTeams = int.Parse(Console.ReadLine());
@@ -43,12 +43,12 @@ namespace P09TeamworkProjects
                 string creator = input[0];
                 string teamName = input[1];
 
-                if (teamNames.Contains(teamName))
+                if (Team.TeamNames.Contains(teamName))
                 {
                     Console.WriteLine($"Team {teamName} was already created!");
                     continue;
                 }
-                if (creators.Contains(creator))
+                if (Team.Creators.Contains(creator))
                 {
                     Console.WriteLine($"{creator} cannot create another team!");
                     continue;
@@ -56,8 +56,8 @@ namespace P09TeamworkProjects
 
                 Team currentTeam = new Team(creator);
                 nameTeam.Add(teamName, currentTeam);
-                creators.Add(creator);
-                teamNames.Add(teamName);
+                Team.Creators.Add(creator);
+                Team.TeamNames.Add(teamName);
                 Console.WriteLine($"Team {teamName} has been created by {creator}!");
             }
 
@@ -72,19 +72,19 @@ namespace P09TeamworkProjects
                 string name = input[0];
                 string teamName = input[1];
 
-                if (teamNames.Contains(teamName) == false)
+                if (Team.TeamNames.Contains(teamName) == false)
                 {
                     Console.WriteLine($"Team {teamName} does not exist!");
                     continue;
                 }
-                if (allMembers.Contains(name) || creators.Contains(name))
+                if (Team.AllMembers.Contains(name) || Team.Creators.Contains(name))
                 {
                     Console.WriteLine($"Member {name} cannot join team {teamName}!");
                     continue;
                 }
 
                 nameTeam[teamName].Members.Add(name);
-                allMembers.Add(name);
+                Team.AllMembers.Add(name);
             }
 
 
