@@ -8,14 +8,7 @@ namespace P08MentorGroup
     class StudentInfo
     {
         public List<string> Comments { get; set; } = new List<string>();
-        //List<DateTime> DatesAttended { get; set; } = new List<DateTime>(); // ako neshto ne se poluchi moje prosto kato stringove da go zapazq
-        public List<string> DatesAttended { get; set; } = new List<string>();
-        //public void ReadDate(string date)
-        //{
-        //    string dateFormat = "dd/MM/yyyy";
-        //    DateTime temporaryDate = DateTime.ParseExact(date, dateFormat, CultureInfo.InvariantCulture);
-        //    DatesAttended.Add(temporaryDate);
-        //}
+        public List<string> DatesAttended { get; set; } = new List<string>(); //principno trqbva s DateTime da se pravi
     }
     class Program
     {
@@ -42,6 +35,15 @@ namespace P08MentorGroup
 
                     nameInfo.Add(name, currentStudentInfo);
                 }
+                else
+                {
+                    StudentInfo currentStudentInfo = new StudentInfo();
+                    for (int i = 1; i < input.Length; i++)
+                    {
+                        nameInfo[name].DatesAttended.Add(input[i]);
+                    }
+                    
+                }
             }
 
             while (true)
@@ -66,7 +68,7 @@ namespace P08MentorGroup
 
             }
 
-            foreach (var kvp in nameInfo)
+            foreach (var kvp in nameInfo.OrderBy(n => n.Key))
             {
                 Console.WriteLine($"{kvp.Key}" + System.Environment.NewLine + "Comments:");
                 foreach (var kvp2 in kvp.Value.Comments)
