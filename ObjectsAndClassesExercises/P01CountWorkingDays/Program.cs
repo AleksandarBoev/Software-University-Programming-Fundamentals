@@ -19,7 +19,8 @@ namespace P01CountWorkingDays
             string dateFormat = "dd-MM-yyyy"; // format na denq
 
             string inputDate1 = Console.ReadLine().Trim(); // .Trim() za copy-pastevaneto
-            DateTime startDate = DateTime.ParseExact(inputDate1, dateFormat, CultureInfo.InvariantCulture); 
+            DateTime startDate = DateTime.ParseExact(inputDate1, dateFormat, CultureInfo.InvariantCulture);
+            //Console.WriteLine(startDate.ToString(dateFormat)); // po takuv nachin se pravi na string, za krasiva vizualizaciq
 
             string inputDate2 = Console.ReadLine().Trim();
             DateTime endDate = DateTime.ParseExact(inputDate2, dateFormat, CultureInfo.InvariantCulture);
