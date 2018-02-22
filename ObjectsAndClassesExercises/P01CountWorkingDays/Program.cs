@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Globalization;
 using System.Linq;
+using System.Threading;
 
 namespace P01CountWorkingDays
 {
@@ -21,6 +22,13 @@ namespace P01CountWorkingDays
             string inputDate1 = Console.ReadLine().Trim(); // .Trim() za copy-pastevaneto
             DateTime startDate = DateTime.ParseExact(inputDate1, dateFormat, CultureInfo.InvariantCulture);
             //Console.WriteLine(startDate.ToString(dateFormat)); // po takuv nachin se pravi na string, za krasiva vizualizaciq
+
+            //_______________________________________________________________________________
+            //Thread.CurrentThread.CurrentCulture = new CultureInfo("en-US"); // [alt] + [enter] za da dobavish Thread
+            //string dateFormat2 = "dd-MMM-yyyy";
+            //DateTime currentDate = DateTime.ParseExact("12-May-2016", dateFormat2, CultureInfo.InvariantCulture);
+            //string result = (currentDate.ToString(dateFormat2)); // --> vadi rezultat 12-May-2016
+            //_______________________________________________________________________________
 
             string inputDate2 = Console.ReadLine().Trim();
             DateTime endDate = DateTime.ParseExact(inputDate2, dateFormat, CultureInfo.InvariantCulture);

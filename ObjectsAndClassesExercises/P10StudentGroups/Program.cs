@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Globalization;
 using System.Linq;
 using System.Text.RegularExpressions;
+using System.Threading;
 
 namespace P10StudentGroups
 {
@@ -10,13 +11,14 @@ namespace P10StudentGroups
     {
         public string Name { get; set; }
         public string Email { get; set; }
-        public string RegistationDate { get; set; }
+        //public string RegistrationDate { get; set; }
+        public DateTime RegistrationDate { get; set; } 
 
-        public StudentInfo(string name, string email, string registrationDate)
+        public StudentInfo(string name, string email, DateTime registrationDate)
         {
             Name = name;
             Email = email;
-            RegistationDate = RegistationDate;
+            RegistrationDate = registrationDate;
         }
     }
     class Group
@@ -40,16 +42,14 @@ namespace P10StudentGroups
         }
 
         static public int CitiesCount { get; set; } = 0; // ne samo shte go polzvam nakraq za da iznesa broikata na gradovete, no i za indexirane na 
-    } // listut ot gradove. No prosto moje i s .Count i guess...
+    } // listut ot gradove. No prosto moje i s List<City> cities.Count...
 
     class Program
     {
-        static void Main(string[] args)
+        static void Main()
         {
-            //string dateFormat = "dd-MM-yyyy";
-            //DateTime currentDate = DateTime.ParseExact("12-12-2016", dateFormat, CultureInfo.InvariantCulture);
-            //Console.WriteLine(currentDate.ToString(dateFormat));
-
+            Thread.CurrentThread.CurrentCulture = new CultureInfo("en-US");
+           
             Regex regexCityName = new Regex(@"[A-Z][a-z]+(\s[A-Z][a-z]+)?"); // sumnqva me da ima grad s tri imena...
             Match matchCityName;
             Regex regexGroupSize = new Regex(@"\d+"); // tursi poredica ot chisla
@@ -75,11 +75,12 @@ namespace P10StudentGroups
                 }
                 else
                 { // ako sme v segashniq grad
-                    string[] studentInfo = Console.ReadLine().Split('|');
+                    string[] studentInfo = input.Split('|');
                     string name = studentInfo[0].Trim();
                     string email = studentInfo[1].Trim();
                     string date = studentInfo[2].Trim();
-                    StudentInfo currentStudent = new StudentInfo(name, email, date);
+                    DateTime registrationDate = DateTime.Parse(date, CultureInfo.InvariantCulture);
+                    StudentInfo currentStudent = new StudentInfo(name, email, registrationDate);
                     cities[cities.Count - 1].AllStudents.Add(currentStudent); // cities[cities.Count - 1] vinagi shte vrushta posledniq vuveden grad kakto si e redut
                 }
 
