@@ -11,7 +11,6 @@ namespace P10StudentGroups
     {
         public string Name { get; set; }
         public string Email { get; set; }
-        //public string RegistrationDate { get; set; }
         public DateTime RegistrationDate { get; set; } 
 
         public StudentInfo(string name, string email, DateTime registrationDate)
@@ -24,7 +23,7 @@ namespace P10StudentGroups
     class Group
     {
         public List<StudentInfo> Students { get; set; } = new List<StudentInfo>();
-        static public int GroupsCount { get; set; }
+        static public int AllGroupsCount { get; set; }
     }
 
     class City
@@ -49,15 +48,16 @@ namespace P10StudentGroups
         static void Main()
         {
             Thread.CurrentThread.CurrentCulture = new CultureInfo("en-US");
-           
-            Regex regexCityName = new Regex(@"[A-Z][a-z]+(\s[A-Z][a-z]+)?"); // sumnqva me da ima grad s tri imena...
-            Match matchCityName;
+            string dateFormat = "d-MMM-yyyy";
+
+            //Regex regexCityName = new Regex(@"[A-Z][a-z]+(\s[A-Z][a-z]+)?"); // sumnqva me da ima grad s tri imena...
+            //Match matchCityName;
             Regex regexGroupSize = new Regex(@"\d+"); // tursi poredica ot chisla
             Match matchGroupSize;
 
             List<City> cities = new List<City>();
 
-            while (true)
+            while (true) // vuvejdane na danni
             {
                 string input = Console.ReadLine();
                 if (input == "End")
@@ -67,28 +67,95 @@ namespace P10StudentGroups
 
                 if (input.Contains("=>")) // oznachava che e vuveden grad i mesta
                 {//ne pokrivam sluchaqt, v koito moje edin grad da bude vuveden vtori put. Ako bude vuveden ima 2 varianta: infoto da se ignorira ili da se obnovi
-                    matchCityName = regexCityName.Match(input);
-                    matchGroupSize = regexGroupSize.Match(input);
-                    City.CitiesCount++;
-                    City currentCity = new City(matchCityName.ToString(), int.Parse(matchGroupSize.ToString()));
+                    string[] cityInformation = input.Split("=>".ToArray(), StringSplitOptions.RemoveEmptyEntries);
+                    string currentCityName = cityInformation[0].Trim();
+
+                    matchGroupSize = regexGroupSize.Match(cityInformation[1]);
+                    int currentCityGroupSize = int.Parse(matchGroupSize.ToString());
+
+                    if (CityNameIsUnique(currentCityName.ToString(), cities))
+                    {
+                        City.CitiesCount++;
+                    }
+                    else
+                    {
+                        continue;
+                    }
+
+                    City currentCity = new City(currentCityName, currentCityGroupSize);
                     cities.Add(currentCity);
                 }
                 else
                 { // ako sme v segashniq grad
                     string[] studentInfo = input.Split('|');
+
                     string name = studentInfo[0].Trim();
                     string email = studentInfo[1].Trim();
                     string date = studentInfo[2].Trim();
-                    DateTime registrationDate = DateTime.Parse(date, CultureInfo.InvariantCulture);
+                    DateTime registrationDate = DateTime.ParseExact(date, dateFormat, CultureInfo.InvariantCulture);
                     StudentInfo currentStudent = new StudentInfo(name, email, registrationDate);
                     cities[cities.Count - 1].AllStudents.Add(currentStudent); // cities[cities.Count - 1] vinagi shte vrushta posledniq vuveden grad kakto si e redut
                 }
+            } // works
 
+            //razpredelqne na studenti po grupi kato bivat podrejdani po data na zapisvane (ascending), ime (ascending), email(ascending)
+            foreach (City city in cities.OrderBy(n => n.CityName))
+            {
+                int groupCounter = -1; // nomer na grupata v segashniq grad
+                int studentCounter = 0;
+                foreach (StudentInfo student in city.AllStudents.OrderBy(r => r.RegistrationDate).ThenBy(n => n.Name).ThenBy(e => e.Email)) //podredeni sa i trqbva da se razpredelqt v List<Group> groups
+                {
+                    if (studentCounter % city.GroupSize == 0) // 
+                    {
+                        Group currentGroup = new Group();
+                        currentGroup.Students.Add(student);
+                        groupCounter++;
+                        city.Groups.Add(currentGroup);
+                        Group.AllGroupsCount++;
+                    }
+                    else
+                    {
+                        city.Groups[groupCounter].Students.Add(student);
+                    }
+                    studentCounter++;
+                }
             }
 
-            
+            Console.WriteLine($"Created {Group.AllGroupsCount} groups in {cities.Count} towns:");
+            foreach (City city in cities.OrderBy(n => n.CityName))
+            {
+                foreach (var group in city.Groups)
+                {
+                    Console.Write($"{city.CityName} => ");
+                    for (int i = 0; i < group.Students.Count; i++)
+                    {
+                        if (i != group.Students.Count - 1)
+                        {
+                            Console.Write(group.Students[i].Email + ", ");
+                        }
+                        else
+                        {
+                            Console.WriteLine(group.Students[i].Email);
+                        }
+                    }
+                }
+            }
 
             //main ends here
         }
+
+        static bool CityNameIsUnique(string cityName, List<City> cities)
+        {
+            for (int i = 0; i < cities.Count; i++)
+            {
+                if (cityName == cities[i].CityName)
+                {
+                    return false;
+                }
+            }
+
+            return true;
+        }
+
     }
 }
