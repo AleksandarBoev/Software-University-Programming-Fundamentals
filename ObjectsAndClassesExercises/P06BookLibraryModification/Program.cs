@@ -10,7 +10,7 @@ namespace P06BookLibraryModification
         public string Title { get; set; }
         public string Author { get; set; }
         public string Publisher { get; set; }
-        public DateTime ReleaseDate { get; set; } = new DateTime();
+        public DateTime ReleaseDate { get; set; }
         public string ISBN { get; set; }
         public decimal Price { get; set; }
 
@@ -19,6 +19,7 @@ namespace P06BookLibraryModification
             Title = title;
             Author = author;
             Publisher = publisher;
+            ReleaseDate = new DateTime();
             ReleaseDate = releaseDate;
             ISBN = isbn;
             Price = price;
@@ -29,7 +30,12 @@ namespace P06BookLibraryModification
     class Library
     {
         public string Name { get; set; } // ne znam zashto e nujno da se pravi takuv klas...
-        public List<Book> Books = new List<Book>();
+        public List<Book> Books { get; set; }
+
+        public Library()
+        {
+            Books = new List<Book>();
+        }
     }
 
 

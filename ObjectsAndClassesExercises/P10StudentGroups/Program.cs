@@ -22,22 +22,29 @@ namespace P10StudentGroups
     }
     class Group
     {
-        public List<StudentInfo> Students { get; set; } = new List<StudentInfo>();
+        public List<StudentInfo> Students { get; set; }
         static public int AllGroupsCount { get; set; }
+
+        public Group()
+        {
+            Students = new List<StudentInfo>();
+        }
     }
 
     class City
     {
         public string CityName { get; set; }
         public int GroupSize { get; set; }
-        public List<Group> Groups { get; set; } = new List<Group>();
+        public List<Group> Groups { get; set; }
         // ne e static, zashtoto iskam vsichki studenti za edin grad da si gi imam, za da moga posle da gi razpredelq po grupi SLED kato gi sortiram kakto trqbva
-        public List<StudentInfo> AllStudents { get; set; } = new List<StudentInfo>();
+        public List<StudentInfo> AllStudents { get; set; }
 
         public City(string cityName, int groupSize)
         {
             CityName = cityName;
             GroupSize = groupSize;
+            Groups = new List<Group>();
+            AllStudents = new List<StudentInfo>();
         }
 
         static public int CitiesCount { get; set; } = 0; // ne samo shte go polzvam nakraq za da iznesa broikata na gradovete, no i za indexirane na 

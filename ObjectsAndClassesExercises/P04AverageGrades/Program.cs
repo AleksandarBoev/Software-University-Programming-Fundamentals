@@ -7,7 +7,7 @@ namespace P04AverageGrades
     class Student
     {
         public string StudentName { get; set; }
-        public List<double> StudentGrades { get; set; } = new List<double>();
+        public List<double> StudentGrades { get; set; }
         public double StudentAverageGrade { get; set; }
 
         public void SetStudentAverageGrade()
@@ -19,6 +19,12 @@ namespace P04AverageGrades
             }
 
             StudentAverageGrade = sum / StudentGrades.Count;
+        }
+
+        public Student(string studentName)
+        {
+            StudentGrades = new List<double>();
+            StudentName = studentName;
         }
     }
 
@@ -33,8 +39,7 @@ namespace P04AverageGrades
             for (int i = 0; i < numberOfStudents; i++)
             {
                 string[] inputData = Console.ReadLine().Trim().Split(); // nulev element e imeto, vseki drug e otdelna ocenka na studenta
-                Student currentStudent = new Student();
-                currentStudent.StudentName = inputData[0];
+                Student currentStudent = new Student(inputData[0]);
 
                 for (int gradeNumber = 1; gradeNumber < inputData.Length; gradeNumber++)
                 {

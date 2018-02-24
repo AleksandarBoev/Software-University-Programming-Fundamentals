@@ -6,7 +6,7 @@ namespace P07AndreyAndBilliard
 {
     class Student
     {
-        public Dictionary<string, int> ShopList = new Dictionary<string, int>();
+        public Dictionary<string, int> ShopList { get; set; }
 
         public decimal GetBill(Dictionary<string, decimal> productsPrices) // tova e rechnikut za produktite na magazina
         {
@@ -19,6 +19,11 @@ namespace P07AndreyAndBilliard
                 }
             }
             return totalBill;
+        }
+
+        public Student()
+        {
+            ShopList = new Dictionary<string, int>();
         }
     }
 

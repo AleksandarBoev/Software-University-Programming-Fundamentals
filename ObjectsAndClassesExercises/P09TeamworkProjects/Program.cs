@@ -19,7 +19,7 @@ namespace P09TeamworkProjects
 
         public Team()
         {
-
+            Members = new List<string>();
         }
 
         public static List<string> TeamNames { get; set; } = new List<string>();

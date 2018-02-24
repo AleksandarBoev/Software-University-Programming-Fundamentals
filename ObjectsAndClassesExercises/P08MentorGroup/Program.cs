@@ -7,14 +7,21 @@ namespace P08MentorGroup
 {
     class StudentInfo
     {
-        public List<string> Comments { get; set; } = new List<string>();
-        public List<string> DatesAttended { get; set; } = new List<string>(); //principno trqbva s DateTime da se pravi
+        public List<string> Comments { get; set; }
+        public List<DateTime> DatesAttended { get; set; } 
+
+        public StudentInfo()
+        {
+            Comments = new List<string>();
+            DatesAttended = new List<DateTime>();
+        }
     }
     class Program
     {
         static void Main(string[] args)
         {
             Dictionary<string, StudentInfo> nameInfo = new Dictionary<string, StudentInfo>();
+            string dateFormat = "dd/MM/yyyy";
 
             while (true)
             {
@@ -30,7 +37,8 @@ namespace P08MentorGroup
                     StudentInfo currentStudentInfo = new StudentInfo();
                     for (int i = 1; i < input.Length; i++)
                     {
-                        currentStudentInfo.DatesAttended.Add(input[i]);
+                        DateTime temporaryDate = DateTime.ParseExact(input[i], dateFormat, CultureInfo.InvariantCulture);
+                        currentStudentInfo.DatesAttended.Add(temporaryDate);
                     }
 
                     nameInfo.Add(name, currentStudentInfo);
@@ -40,7 +48,8 @@ namespace P08MentorGroup
                     StudentInfo currentStudentInfo = new StudentInfo();
                     for (int i = 1; i < input.Length; i++)
                     {
-                        nameInfo[name].DatesAttended.Add(input[i]);
+                        DateTime temporaryDate = DateTime.ParseExact(input[i], dateFormat, CultureInfo.InvariantCulture);
+                        nameInfo[name].DatesAttended.Add(temporaryDate);
                     }
                     
                 }
@@ -78,7 +87,7 @@ namespace P08MentorGroup
                 Console.WriteLine("Dates attended: ");
                 foreach (var kvp3 in kvp.Value.DatesAttended.OrderBy(x => x))
                 {
-                    Console.WriteLine($"-- {kvp3}");
+                    Console.WriteLine($"-- {kvp3.Day}/{kvp3.Month:D2}/{kvp3.Year}");
                 }
             }
             //main ends here
