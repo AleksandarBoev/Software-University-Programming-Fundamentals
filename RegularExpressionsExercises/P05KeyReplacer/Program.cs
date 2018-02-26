@@ -8,7 +8,7 @@ namespace P05KeyReplacer
         static void Main(string[] args)
         {
             Regex keyRegex = new Regex(@"(?<start>\w+(?=<|\||\\))(<|\||\\)(\w+(<|\||\\))+(?<end>\w+)");
-            string keyInput = Console.ReadLine();
+            string keyInput = " " + Console.ReadLine();
             MatchCollection keyMatches = keyRegex.Matches(keyInput);
             string start = keyMatches[0].Groups["start"].ToString();
             string end = keyMatches[0].Groups["end"].ToString();
