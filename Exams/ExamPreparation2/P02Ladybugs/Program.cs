@@ -17,14 +17,14 @@ namespace P02Ladybugs
             List<int> realInitialIndexes = new List<int>();
             for (int i = 0; i < initialIndexesOfLadybugs.Length; i++)
             {
-                if (initialIndexesOfLadybugs[i] <= sizeOfField || initialIndexesOfLadybugs[i] > 0)
+                if (initialIndexesOfLadybugs[i] < sizeOfField && initialIndexesOfLadybugs[i] >= 0)
                 {
                     realInitialIndexes.Add(initialIndexesOfLadybugs[i]);
                 }
             }
 
             int[] spotsTaken = new int[sizeOfField]; // default values = 0 (0 sushto si oznachava che ne e zaeto)
-            for (int i = 0; i < realInitialIndexes.Count; i++)
+            for (int i = 0; i < realInitialIndexes.Count; i++) 
             {
                 spotsTaken[realInitialIndexes[i]] = 1;
             }
@@ -41,7 +41,11 @@ namespace P02Ladybugs
                 }
 
                 int ladyBugIndex = int.Parse(input[0]);
-                if (spotsTaken[ladyBugIndex] == 0) // if there is not ladybug there, it cant do anything...
+                if (ladyBugIndex < 0 || ladyBugIndex >= sizeOfField) // if given index is outside of bounds do nothing
+                {
+                    continue;
+                }
+                if (spotsTaken[ladyBugIndex] == 0) // if there is no ladybug there, it cant do anything...
                 {
                     continue;
                 }
@@ -49,12 +53,9 @@ namespace P02Ladybugs
                 string direction = input[1]; // left ( -flighLenght) or right ( +flightLength)
 
                 int flightLength = int.Parse(input[2]);
-                if (flightLength > sizeOfField || flightLength < 0)
-                {
-                    continue;
-                }
 
                 spotsTaken[ladyBugIndex] = 0; // sega kakvoto i da stava se maha ot tozi index
+
                 if (direction == "left")
                 {
                     flightLength *= -1;
@@ -64,16 +65,23 @@ namespace P02Ladybugs
                 while (true)
                 {
                     int sum = actualFlightLength + ladyBugIndex;
-                    if (sum < 0 || sum > sizeOfField)
+                    if (sum < 0 || sum >= spotsTaken.Length)
                     {
-                        break; // mqstoto po-rano be osvobodeno, a sega drugo mqsto ne biva zaeto i kalinkata si zaminava
+                        break; // mqstoto po-rano be osvobodeno, a sega drugo mqsto ne biva zaeto i kalinkata si zaminava, zashtoto e izletqla izvun ogranicheniqta
                     }
-                    if (spotsTaken[sum] == 1) //t.e. ako e zaeto
+                    if (spotsTaken[sum] == 1) //t.e. ako e zaeto, trqbva da leti oshte tolkova
                     {
                         actualFlightLength += flightLength;
                     }
+                    else
+                    {
+                        spotsTaken[sum] = 1;
+                        break;
+                    }
                 }
             }
+
+            Console.WriteLine(string.Join(" ", spotsTaken));
             //main ends here
         }
     }
