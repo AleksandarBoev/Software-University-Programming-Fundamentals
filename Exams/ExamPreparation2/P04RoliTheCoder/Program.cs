@@ -24,7 +24,7 @@ namespace P04RoliTheCoder
             while (true)
             {
                 string[] input = Console.ReadLine().Split(new char[] { ' ' }, StringSplitOptions.RemoveEmptyEntries);
-
+                
                 if (string.Join(" ", input) == "Time for Code")
                 {
                     break;
@@ -33,12 +33,30 @@ namespace P04RoliTheCoder
                 //zapazvane na dannite
                 int id = int.Parse(input[0]);
                 string eventName = input[1]; // potencialen problem: eventName-ut moje da bude sustaven ot dve imena, ne samo edno
-                List<string> currentParticipants = new List<string>(); 
-                currentParticipants = input
-                    .Where(x => x.StartsWith("@")) // && IsValidName(x.TrimStart('@'))
-                    .ToList(); // ne zabravqi da napravish Distinct posle
+                List<string> currentParticipants = new List<string>();
+                //currentParticipants = input
+                //    .Where(x => x.StartsWith("@")) // && IsValidName(x.TrimStart('@')) //dali ne trqbva da se napravi "continue "
+                //    .ToList(); // ne zabravqi da napravish Distinct posle
 
                 //validirane na dannite
+                bool invalidData = false;
+                for (int i = 2;  i< input.Length; i++)
+                {
+                    if (input[i].StartsWith("@") == false)
+                    {
+                        invalidData = true; 
+                        break;
+                    }
+                    else
+                    {
+                        currentParticipants.Add(input[i]);
+                    }
+                }
+                if (invalidData)
+                {
+                    continue;
+                }
+
                 if (eventName.StartsWith("#") == false)
                 {
                     continue;
